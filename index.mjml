@@ -1,49 +1,144 @@
 <mjml>
-<mj-head>
-  <mj-style inline="inline">
-    .bold{
-      font-weight: bold;
-    }
-  </mj-style>
-</mj-head>
+  <mj-head>
+    <mj-style inline="inline"> .bold{ font-weight: bold; } </mj-style>
+  </mj-head>
   <mj-body>
     <!-- Company Header -->
     <mj-section background-color="#FAFDC4">
-    <mj-column>
-      <mj-text align="center" font-size="16px">
-        Limited time: Free kids hair brush on orders $49+
-      </mj-text>
-    </mj-column>
+      <mj-column>
+        <mj-text align="center" font-size="16px">
+          Limited time: Free kids hair brush on orders $49+
+        </mj-text>
+      </mj-column>
     </mj-section>
 
     <!-- Image Header -->
     <mj-section background-color="#ffffff">
-    <mj-column width="40%">
-      <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/e5fae3fe-160c-474e-aa49-ec35f9604189.png" alt="Ever Eden Logo" />
-    </mj-column>
+      <mj-column width="40%">
+        <mj-image
+          src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/e5fae3fe-160c-474e-aa49-ec35f9604189.png"
+          alt="Ever Eden Logo"
+        />
+      </mj-column>
     </mj-section>
 
     <!-- Introduction promotion -->
     <mj-section background-color="#FAF5F1">
-    <mj-column>
-      <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/3c328069-b7e3-4de1-a02f-9e955705a427.png" alt="" font-size="20px"/>
-    </mj-column>
+      <mj-column>
+        <mj-image
+          src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/3c328069-b7e3-4de1-a02f-9e955705a427.png"
+          alt=""
+          font-size="20px"
+        />
+      </mj-column>
     </mj-section>
-<!-- Introduction text -->
-<mj-section background-color="#FAF5F1">
-  <mj-column>
-    <mj-text font-size="20px" align="center" line-height="30px" color="#1e4d51" font-weight="400">
-      Save on our range of safe products for the whole family. <span class="bold">Click below to see your unique discount code.</span>
-    </mj-text>
-   <mj-button background-color="#1e4d51" color="#ffffff" width="50%" font-size="20px" letter-spacing="3px">
-    <mj-text >
-      SEE YOUR CODE
-    </mj-text>
-   </mj-button>
-  </mj-column>
-</mj-section>
+    <!-- Introduction text -->
+    <mj-section background-color="#FAF5F1">
+      <mj-column>
+        <mj-text
+          font-size="20px"
+          align="center"
+          line-height="30px"
+          color="#1e4d51"
+          font-weight="400"
+        >
+          Save on our range of safe products for the whole family.
+          <span class="bold"
+            >Click below to see your unique discount code.</span
+          >
+        </mj-text>
+        <mj-button
+          href="#"
+          background-color="#1e4d51"
+          color="#ffffff"
+          width="50%"
+          font-size="20px"
+          letter-spacing="3px"
+        >
+          <mj-text> SEE YOUR CODE </mj-text>
+        </mj-button>
+      </mj-column>
+    </mj-section>
     <!-- 2 columns section -->
-    <mj-section background-color="white"></mj-section>
+    <mj-section background-color="#FAF5F1">
+      <mj-column width="100%">
+        <mj-text align="center" color="#1e4d51" font-size="30px">
+          FIVE STAR FAVES
+        </mj-text>
+      </mj-column>
+      <mj-column width="49%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0009/7137/4652/products/Eczema-Catalogue.jpg?v=1682498797"
+          alt="Image of Healing Eczema Treatment"
+          href="https://www.ever-eden.com/products/healing-eczema-treatment?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+        />
+        <mj-text align="center" color="#1e4d51" font-size="16px">
+          Healing Eczema Treatment
+        </mj-text>
+        <mj-button
+          href="https://www.ever-eden.com/products/healing-eczema-treatment?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+          background-color="#1e4d51"
+          color="#ffffff"
+          font-size="16px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+      <mj-column width="49%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0009/7137/4652/products/Peach.jpg?v=1683758279"
+          alt="Image of Kids Happy Face Duo"
+          href="https://www.ever-eden.com/products/kids-happy-face-duo?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+        />
+        <mj-text align="center" color="#1e4d51" font-size="16px">
+          Kids Happy Face Duo
+        </mj-text>
+        <mj-button
+          href="https://www.ever-eden.com/products/kids-happy-face-duo?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+          background-color="#1e4d51"
+          color="#ffffff"
+          font-size="16px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+      <mj-column width="49%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0009/7137/4652/products/Happy-face-duo-_-SPF.jpg?v=1682498954"
+          alt="Image of Kids Daily 1-2-3 Routine"
+          href="https://www.ever-eden.com/products/kids-daily-1-2-3-routine?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+        />
+        <mj-text align="center" color="#1e4d51" font-size="16px">
+          Kids Daily 1-2-3 Routine
+        </mj-text>
+        <mj-button
+          href="https://www.ever-eden.com/products/kids-daily-1-2-3-routine?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+          background-color="#1e4d51"
+          color="#ffffff"
+          font-size="16px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+      <mj-column width="49%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0009/7137/4652/products/baby_face_cream-compressor.jpg?v=1682498401"
+          alt="Image of Nourishing Baby Face Cream"
+          href="https://www.ever-eden.com/products/nourishing-baby-face-cream?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+        />
+        <mj-text align="center" color="#1e4d51" font-size="16px">
+          Nourishing Baby Face Cream
+        </mj-text>
+        <mj-button
+          href="https://www.ever-eden.com/products/nourishing-baby-face-cream?utm_source=email&utm_medium=flow-email&utm_campaign=Welcome%20Email%202%20Other%3A%20Code%20Reminder%20%28T7sSxK%29&utm_id=RXpkYg&triplesource=klaviyo&bxid=01H38DMQ2MJ0B20401HZ5FEEHN&_kx=KmzKbdO4ij54hiFI3d-IERZWv1YpC7JKiMmWltLSBegHzzPi1y5B3GPMBrlHefGL.NqV8Eq"
+          background-color="#1e4d51"
+          color="#ffffff"
+          font-size="16px"
+        >
+          SHOP NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
 
     <!-- 3 columns section Icons -->
     <mj-section background-color="#fbfbfb"></mj-section>
