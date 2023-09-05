@@ -1,14 +1,47 @@
 <mjml>
+<mj-head>
+  <mj-style inline="inline">
+    .bold{
+      font-weight: bold;
+    }
+  </mj-style>
+</mj-head>
   <mj-body>
     <!-- Company Header -->
-    <mj-section background-color="#f0f0f0"></mj-section>
+    <mj-section background-color="#FAFDC4">
+    <mj-column>
+      <mj-text align="center" font-size="16px">
+        Limited time: Free kids hair brush on orders $49+
+      </mj-text>
+    </mj-column>
+    </mj-section>
 
     <!-- Image Header -->
-    <mj-section background-color="#f0f0f0"></mj-section>
+    <mj-section background-color="#ffffff">
+    <mj-column width="40%">
+      <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/e5fae3fe-160c-474e-aa49-ec35f9604189.png" alt="Ever Eden Logo" />
+    </mj-column>
+    </mj-section>
 
-    <!-- Introduction Text -->
-    <mj-section background-color="#fafafa"></mj-section>
-
+    <!-- Introduction promotion -->
+    <mj-section background-color="#FAF5F1">
+    <mj-column>
+      <mj-image src="https://d3k81ch9hvuctc.cloudfront.net/company/NqV8Eq/images/3c328069-b7e3-4de1-a02f-9e955705a427.png" alt="" font-size="20px"/>
+    </mj-column>
+    </mj-section>
+<!-- Introduction text -->
+<mj-section background-color="#FAF5F1">
+  <mj-column>
+    <mj-text font-size="20px" align="center" line-height="30px" color="#1e4d51" font-weight="400">
+      Save on our range of safe products for the whole family. <span class="bold">Click below to see your unique discount code.</span>
+    </mj-text>
+   <mj-button background-color="#1e4d51" color="#ffffff" width="50%" font-size="20px" letter-spacing="3px">
+    <mj-text >
+      SEE YOUR CODE
+    </mj-text>
+   </mj-button>
+  </mj-column>
+</mj-section>
     <!-- 2 columns section -->
     <mj-section background-color="white"></mj-section>
 
